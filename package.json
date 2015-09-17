@@ -1,0 +1,32 @@
+{
+  "name": "gimme-food",
+  "version": "0.1.0",
+  "description": "Web application to rate restaurants and send suggestions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "angular",
+    "redis",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Vernon Govan, Sam Teferra, Insiya Daruwalla, Sanjeev Rayamajhi",
+  "license": "GPL V3",
+  "dependencies": {
+    "mongoose": "~4.1.6",
+    "redis": "~1.0.0",
+    "express": "~4.13.3"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.2",
+    "should": "~7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/vdgovan/foodies-web.git"
+  }
+}
