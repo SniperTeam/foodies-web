@@ -9,4 +9,4 @@ var UserSchema = new Schema({
   password: { type: String }
 })
 
-var RestaurantModel = mongoose.model('User', UserSchema, 'users');
+var User = mongoose.model('User', UserSchema, 'users');
